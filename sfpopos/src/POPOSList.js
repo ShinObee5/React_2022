@@ -1,6 +1,7 @@
 import React from "react";
-import POPOSSpace
- from "./POPOSSpace";
+import POPOSSpace from "./POPOSSpace";
+import './POPOSSList.css';
+
 function POPOSList(){
     return(
         <div className="POPOSList">
@@ -24,8 +25,17 @@ function POPOSList(){
             address="15 Abbot Avenue"
             image="img5.jpg"
             />
-            <POPOSSpace />
-
+            <POPOSSpace
+            name="Tent life"
+            address="Middle of nowhere"
+            image="img2.jpg"
+             />
+            <POPOSSpace 
+            name="Ocean "
+            address="12 Downtown Avenue"
+            image="img3.jpg"
+            />
+            
         </div>
     )
 }
